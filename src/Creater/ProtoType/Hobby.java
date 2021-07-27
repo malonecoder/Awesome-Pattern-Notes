@@ -1,5 +1,7 @@
 package Creater.ProtoType;
 
-public class Hobby {
+import java.io.Serializable;
+
+public class Hobby implements Serializable {
     private String hobbyName;
 }
